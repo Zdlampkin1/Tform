@@ -16,7 +16,3 @@ resource "aws_instance" "MyFirstInstance" {
     Name = "custom_instance"
   }
 }
-
-output "public_ip" {
-  value = aws_instance.MyFirstInstnace.public_ip 
-}
